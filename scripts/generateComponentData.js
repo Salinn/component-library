@@ -7,7 +7,7 @@ var chokidar = require('chokidar');
 var paths = {
   examples: path.join(__dirname, '../src', 'docs', 'examples'),
   components: path.join(__dirname, '../src', 'components'),
-  output: path.join(__dirname, '../src', 'componentData.js')
+  output: path.join(__dirname, '../src/config', 'componentData.js')
 };
 
 const enableWatchMode = process.argv.slice(2) == '--watch';
